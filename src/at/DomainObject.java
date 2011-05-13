@@ -24,7 +24,7 @@ public String getUuid() {
 
 private String name;
 
-public String id = UUID.randomUUID().toString()
+public String id = getUuid.randomUUID().toString()
 
 }
 
