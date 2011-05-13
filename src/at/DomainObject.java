@@ -21,4 +21,8 @@ public String getId() {
    return id;
 }
 
+private String name;
+
+public String id = UUID.randomUUID().toString()
+
 }
