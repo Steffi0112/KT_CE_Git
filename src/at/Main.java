@@ -11,7 +11,7 @@ public class Main {
 private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
 
-Set<DomainObject> objectSet = new HashSet<DomainObject>();
+Set<DomainObject> objectSet = new TreeSet<DomainObject>(new DomainObjectComparator());
 
 objectSet.add(new DomainObject("Helga", "Kommentar"));
 objectSet.add(new DomainObject("Walter", "Kommentar"));
