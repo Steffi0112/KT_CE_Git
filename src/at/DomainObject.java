@@ -2,6 +2,10 @@ package at;
 
 public class DomainObject {
 
+/**
+ * Default constructor
+ */
+
 	public DomainObject() {
 		super();
 	}
@@ -13,7 +17,8 @@ public DomainObject(String id) {
   this.id = id;
 }
 
-private String name;
-
+public String getId() {
+   return id;
+}
 
 }
