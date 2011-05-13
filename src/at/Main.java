@@ -20,7 +20,7 @@ objectSet.add(DomainFactory.createDomainObject("Paul", "Kommentar"));
 objectSet.add(DomainFactory.createDomainObject("Claudia", "Kommentar));
 
 for (DomainObject domainObject : objectSet) {
-  LOGGER.debug(domainObject.id);
+  LOGGER.debug(domainObject.toString());
 }
 	}
 
