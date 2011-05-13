@@ -6,7 +6,7 @@ public class DomainObject {
 		super();
 	}
 
-public String id;
+private String id;
 
 public DomainObject(String id) {
   super();
