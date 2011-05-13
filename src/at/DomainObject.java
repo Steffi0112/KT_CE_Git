@@ -10,14 +10,14 @@ public class DomainObject {
 		super();
 	}
 
-public String id;
+public String uuid;
 
 public DomainObject(String id) {
   super();
   this.id = id;
 }
 
-public String getId() {
+public String getUuid() {
    return id;
 }
 
