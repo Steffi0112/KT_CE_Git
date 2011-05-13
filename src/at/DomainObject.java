@@ -58,4 +58,12 @@ public boolean equals(Object obj) {
    return uuid.equals(domainObj.getUuid());
 }
 
+public boolean equals(Object obj) {
+   if (!(obj instanceof DomainObject)) {
+      return false;
+   }
+   DomainObject domainObj = (DomainObject) obj;
+   return uuid.equals(domainObj.getUuid());
+}
+
 }
